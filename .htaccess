@@ -1,0 +1,89 @@
+RewriteEngine on  
+
+RewriteRule ^Welcome  index.php [NC,L] 
+RewriteRule ^Register  registration.php [NC,L]
+
+
+RewriteRule ^Terms  terms.php [NC,L]
+RewriteRule ^Privacypolicy  privacypolicy.php [NC,L] 
+RewriteRule ^Aboutus  aboutus.php [NC,L] 
+RewriteRule ^Contactus  contactus.php [NC,L]  
+
+
+RewriteRule ^2938c7f7e560ed972f8a4f68e80ff834  main.php [NC,L]
+
+RewriteRule ^Activitylog  activitylog.php [NC,L] 
+
+
+RewriteRule ^Changepassword  updatepass.php [NC,L]
+RewriteRule ^Profile  profile.php [NC,L]
+RewriteRule ^Changeprofile  viewprofile.php [NC,L]
+RewriteRule ^Webinfo  webinfo.php [NC,L]
+RewriteRule ^Customization  websettings.php [NC,L]
+
+
+RewriteRule ^AddDepartment  adddepartment.php [NC,L]
+RewriteRule ^ViewDepartment  viewdepartment.php [NC,L]
+RewriteRule ^Changedepartment  updatedepartment.php [NC,L]
+
+
+RewriteRule ^Addemployee  addemployee.php [NC,L]
+RewriteRule ^Viewemployee  viewemployee.php [NC,L]
+RewriteRule ^Changeempinfo  updateemployee.php [NC,L]
+
+
+RewriteRule ^Changeproject  updateproject.php [NC,L]
+RewriteRule ^Assignproject  assignprojectemp.php [NC,L]
+RewriteRule ^Viewassignedproject  viewassignprojectemp.php [NC,L]
+RewriteRule ^Changeassignedproject  updateassignproject.php [NC,L]
+
+RewriteRule ^Givesalary  givesalaryofemp.php [NC,L]
+RewriteRule ^Viewsalary  viewsalaryofemp.php [NC,L]
+RewriteRule ^Changesalary  updatesalaryofemp.php [NC,L]
+
+RewriteRule ^Addsector  addsector.php [NC,L] 
+RewriteRule ^Viewsector  viewsector.php [NC,L]
+RewriteRule ^Changesector  updatesector.php [NC,L]
+
+RewriteRule ^Addstock  addstock.php [NC,L]
+RewriteRule ^Viewstock  viewstock.php [NC,L]
+RewriteRule ^Changestock  updatestock.php [NC,L]
+RewriteRule ^Outstock  outtostock.php [NC,L]
+
+RewriteRule ^FactoryStatus  factorystatus.php [NC,L]
+RewriteRule ^Goodlist  factorygoodslist.php [NC,L]
+RewriteRule ^Changegoods  updatefactorygoods.php [NC,L] 
+
+RewriteRule ^Expense  othercost.php [NC,L]
+RewriteRule ^Changeexpense  updateothercost.php [NC,L]
+RewriteRule ^ReportExpense  reportexpense.php [NC,L]
+
+RewriteRule ^Invoice  makeinvoice.php [NC,L]
+RewriteRule ^Dueinvoices  recievableinvoice.php [NC,L]
+RewriteRule ^Recievabledues  recievableinvoiceupdate.php [NC,L] 
+RewriteRule ^Paidinvoices  paidinvoice.php [NC,L]
+RewriteRule ^Printinvoice  printinvoice.php [NC,L]
+RewriteRule ^Incomes  incomereport.php [NC,L]
+RewriteRule ^DatewiseIncome  reportofincome.php [NC,L]
+RewriteRule ^ReportIncomeExpense  datewiseinexreport.php [NC,L]
+
+RewriteRule ^Addcustomer  addcustomer.php [NC,L]
+RewriteRule ^Viewcustomer  viewcustomer.php [NC,L]
+RewriteRule ^Changecustomer  updatecustomer.php [NC,L]
+RewriteRule ^Customerreports  customerreport.php [NC,L]
+RewriteRule ^Reportdetails reportsearch.php [NC,L]
+RewriteRule ^ProfitOrLoss prolossreport.php [NC,L]
+RewriteRule ^plreport plportprint.php [NC,L]
+RewriteRule ^Balancesheet balancesheet.php [NC,L] 
+
+RewriteRule ^Addloan  addloan.php [NC,L]
+RewriteRule ^Payloan  payloan.php [NC,L]
+RewriteRule ^Changeloan  updateloan.php [NC,L]
+
+RewriteRule ^IncomeVoucher  incomevouchercost.php [NC,L]
+RewriteRule ^ChangeIncomeVoucher updateincomevoucher.php [NC,L]
+RewriteRule ^ReportIncomeVoucher  reportIncomeVoucher.php [NC,L]
+
+RewriteRule ^Cash  cash.php [NC,L]
+RewriteRule ^ChangeCash updatecash.php [NC,L]
+RewriteRule ^ReportCash reportcash.php [NC,L] 

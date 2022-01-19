@@ -1,0 +1,8 @@
+[17-Aug-2021 00:39:49 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/biplgmwr/dcokhulnarecruitment.com/admin/config/dbconfig.php on line 6
+[17-Aug-2021 00:39:49 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/biplgmwr/dcokhulnarecruitment.com/admin/index.php on line 5
+[17-Aug-2021 00:39:49 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/biplgmwr/dcokhulnarecruitment.com/admin/index.php on line 6
+[17-Aug-2021 00:42:45 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/biplgmwr/dcokhulnarecruitment.com/admin/index.php on line 6
+[17-Aug-2021 00:47:07 America/New_York] PHP Notice:  Undefined index: msg in /home/biplgmwr/dcokhulnarecruitment.com/admin/viewemployee.php on line 170
+[17-Aug-2021 01:21:03 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/biplgmwr/dcokhulnarecruitment.com/admin/logout.php on line 7
+[17-Aug-2021 01:21:12 America/New_York] PHP Notice:  Undefined index: msg in /home/biplgmwr/dcokhulnarecruitment.com/admin/viewemployee.php on line 170
+[17-Aug-2021 01:32:55 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/biplgmwr/dcokhulnarecruitment.com/admin/logout.php on line 7

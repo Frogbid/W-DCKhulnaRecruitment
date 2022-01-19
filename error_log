@@ -1,0 +1,5 @@
+[17-Aug-2021 00:39:24 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/biplgmwr/dcokhulnarecruitment.com/config/dbconfig.php on line 6
+[17-Aug-2021 00:39:24 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/biplgmwr/dcokhulnarecruitment.com/index.php on line 5
+[17-Aug-2021 00:39:24 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/biplgmwr/dcokhulnarecruitment.com/index.php on line 6
+[08-Oct-2021 14:25:48 America/New_York] PHP Notice:  Undefined index: employee_id in /home/biplgmwr/dcokhulnarecruitment.com/main.php on line 10
+[09-Dec-2021 18:01:55 America/New_York] PHP Notice:  Undefined index: employee_id in /home/biplgmwr/dcokhulnarecruitment.com/main.php on line 10
